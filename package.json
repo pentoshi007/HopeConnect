@@ -1,0 +1,24 @@
+{
+  "name": "ngo-internship-portal",
+  "version": "1.0.0",
+  "description": "NGO Internship Portal - MERN Stack Application",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run client:dev\" \"npm run server:dev\"",
+    "client:dev": "cd client && npm run dev",
+    "server:dev": "cd server && npm run dev",
+    "client:install": "cd client && npm install",
+    "server:install": "cd server && npm install",
+    "install:all": "npm run client:install && npm run server:install",
+    "build": "cd client && npm run build",
+    "start": "cd server && npm start",
+    "lint": "concurrently \"cd client && npm run lint\" \"cd server && npm run lint\"",
+    "format": "concurrently \"cd client && npm run format\" \"cd server && npm run format\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  },
+  "keywords": ["ngo", "internship", "volunteer", "mern", "react", "express", "mongodb"],
+  "author": "NGO Portal Team",
+  "license": "MIT"
+}
