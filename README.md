@@ -1,4 +1,25 @@
-# HopeConnect - NGO Volunteer Management Portal
+# HopeConne## ![Node.js](https://img.shields.io/badge/Node.js-20%2B-green)
+![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-green)
+
+## 🌐 Live Deployment
+
+- **Frontend**: [Deploy to Vercel](https://vercel.com/new/clone?repository-url=https://github.com/pentoshi007/HopeConnect&root-directory=client)
+- **Backend**: [Deploy to Render](https://render.com/deploy?repo=https://github.com/pentoshi007/HopeConnect)
+- **Database**: [MongoDB Atlas Free Tier](https://www.mongodb.com/atlas)
+
+> **Note**: The backend is hosted on Render's free tier and may sleep after 15 minutes of inactivity. First requests after sleep may take 40-60 seconds to wake up the server.
+
+## 🌟 Features
+
+### ✨ **Modern UI/UX**oyment
+
+- **Frontend**: [Deploy to Vercel](https://vercel.com/new/clone?repository-url=https://github.com/pentoshi007/HopeConnect&root-directory=client)
+- **Backend**: [Deploy to Render](https://render.com/deploy?repo=https://github.com/pentoshi007/HopeConnect)
+- **Database**: [MongoDB Atlas Free Tier](https://www.mongodb.com/atlas)
+
+> **Note**: The backend is hosted on Render's free tier and may sleep after 15 minutes of inactivity. First requests after sleep may take 40-60 seconds to wake up the server.NGO Volunteer Management Portal
+
+> **⚠️ IMPORTANT NOTICE**: The backend server is hosted on Render's free tier and may sleep after 15 minutes of inactivity. If you experience loading issues, please wait 40 seconds and refresh the page to wake up the server. For production use, consider upgrading to a paid hosting plan.
 
 A modern, responsive web application built with the MERN stack for managing NGO volunteer applications. Features a beautiful glassmorphic design with comprehensive admin dashboard and seamless user experience.
 
@@ -7,7 +28,18 @@ A modern, responsive web application built with the MERN stack for managing NGO 
 ![Node.js](https://img.shields.io/badge/Node.js-20%2B-green)
 ![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-green)
 
-## 🌟 Features
+## � Live Deployment
+
+- **Frontend**: [Deploy to Vercel](https://vercel.com/new/clone?repository-url=https://github.com/pentoshi007/HopeConnect&root-directory=client)
+#### Backend (Server)
+
+- **Render** (Free tier with sleep)
+- **Vercel** (For serverless functions)
+- **DigitalOcean App Platform**
+- **Heroku** (Paid only)
+- **Database**: [MongoDB Atlas Free Tier](https://www.mongodb.com/atlas)
+
+## �🌟 Features
 
 ### � **Modern UI/UX**
 
@@ -274,7 +306,7 @@ PORT=3001
 NODE_ENV=production
 ADMIN_EMAIL=your_admin_email
 ADMIN_PASSWORD=your_secure_password
-CORS_ORIGIN=https://your-frontend-domain.com
+CORS_ORIGIN=https://your-frontend-domain.vercel.app
 ```
 
 #### Client
@@ -283,25 +315,24 @@ CORS_ORIGIN=https://your-frontend-domain.com
 VITE_API_URL=https://your-backend-domain.com
 ```
 
-### Recommended Deployment Platforms
+### Current Deployment Setup
 
 #### Frontend (Client)
-
-- **Vercel** (Recommended)
-- **Netlify**
-- **GitHub Pages**
+- **Vercel** - Fast, reliable frontend hosting with global CDN
+- Automatic deployments from GitHub
+- Custom domain support
+- Environment variables configured
 
 #### Backend (Server)
-
-- **Railway** (Recommended)
-- **Render**
-- **Heroku**
-- **DigitalOcean App Platform**
+- **Render** - Free tier backend hosting (⚠️ May sleep after 15 minutes of inactivity)
+- Automatic wake-up on first request (takes ~40 seconds)
+- Direct GitHub integration
+- SSL certificates included
 
 #### Database
-
-- **MongoDB Atlas** (Recommended)
-- **MongoDB Cloud**
+- **MongoDB Atlas** - Cloud database with free tier
+- Global availability and automatic backups
+- Secure connections and monitoring
 
 ### Build Commands
 
