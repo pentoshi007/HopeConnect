@@ -74,8 +74,8 @@ A modern, responsive web application built with the MERN stack for managing NGO 
 ### 1. Clone Repository
 
 ```bash
-git clone <your-repository-url>
-cd ngo-internship
+git clone https://github.com/pentoshi007/HopeConnect.git
+cd HopeConnect
 ```
 
 ### 2. Install Dependencies
