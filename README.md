@@ -1,4 +1,5 @@
 # HopeConne## ![Node.js](https://img.shields.io/badge/Node.js-20%2B-green)
+
 ![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-green)
 
 ## 🌐 Live Deployment
@@ -31,6 +32,7 @@ A modern, responsive web application built with the MERN stack for managing NGO 
 ## � Live Deployment
 
 - **Frontend**: [Deploy to Vercel](https://vercel.com/new/clone?repository-url=https://github.com/pentoshi007/HopeConnect&root-directory=client)
+
 #### Backend (Server)
 
 - **Render** (Free tier with sleep)
@@ -318,18 +320,21 @@ VITE_API_URL=https://your-backend-domain.com
 ### Current Deployment Setup
 
 #### Frontend (Client)
+
 - **Vercel** - Fast, reliable frontend hosting with global CDN
 - Automatic deployments from GitHub
 - Custom domain support
 - Environment variables configured
 
 #### Backend (Server)
+
 - **Render** - Free tier backend hosting (⚠️ May sleep after 15 minutes of inactivity)
 - Automatic wake-up on first request (takes ~40 seconds)
 - Direct GitHub integration
 - SSL certificates included
 
 #### Database
+
 - **MongoDB Atlas** - Cloud database with free tier
 - Global availability and automatic backups
 - Secure connections and monitoring
