@@ -95,12 +95,12 @@ function Navbar() {
 
                 {/* Mobile Navigation */}
                 {isMenuOpen && (
-                    <div className="md:hidden absolute top-full left-0 right-0 bg-white/80 backdrop-blur-xl border-b border-white/20 shadow-xl shadow-primary/10">
+                    <div className="md:hidden absolute top-full left-0 right-0 bg-white/95 backdrop-blur-xl border-b border-white/20 shadow-xl shadow-primary/10">
                         <div className="px-4 py-6 space-y-4">
                             {!isAuthenticated && (
                                 <Link
                                     to="/"
-                                    className={`block transition-colors font-medium py-2 ${isActive('/')
+                                    className={`block transition-colors font-medium py-2 text-center ${isActive('/')
                                         ? 'text-primary font-semibold'
                                         : 'text-text-primary hover:text-primary'
                                         }`}
@@ -124,34 +124,40 @@ function Navbar() {
                                 <>
                                     <Link
                                         to="/admin"
-                                        className={`flex items-center gap-2 transition-colors font-medium py-2 ${isActive('/admin')
+                                        className={`block transition-colors font-medium py-2 text-center ${isActive('/admin')
                                             ? 'text-primary font-semibold'
                                             : 'text-text-secondary hover:text-primary'
                                             }`}
                                         onClick={() => setIsMenuOpen(false)}
                                     >
-                                        <Shield className="h-4 w-4" />
-                                        Dashboard
+                                        <div className="flex items-center justify-center gap-2">
+                                            <Shield className="h-4 w-4" />
+                                            Dashboard
+                                        </div>
                                     </Link>
                                     <button
                                         onClick={async () => {
                                             await logout()
                                             setIsMenuOpen(false)
                                         }}
-                                        className="flex items-center gap-2 text-text-secondary hover:text-error transition-colors font-medium py-2 w-full text-left"
+                                        className="block text-text-secondary hover:text-error transition-colors font-medium py-2 w-full text-center"
                                     >
-                                        <LogOut className="h-4 w-4" />
-                                        Logout
+                                        <div className="flex items-center justify-center gap-2">
+                                            <LogOut className="h-4 w-4" />
+                                            Logout
+                                        </div>
                                     </button>
                                 </>
                             ) : (
                                 <Link
                                     to="/admin/login"
-                                    className="flex items-center gap-2 text-text-secondary hover:text-primary transition-colors font-medium py-2"
+                                    className="block text-text-secondary hover:text-primary transition-colors font-medium py-2 text-center"
                                     onClick={() => setIsMenuOpen(false)}
                                 >
-                                    <Shield className="h-4 w-4" />
-                                    Admin Login
+                                    <div className="flex items-center justify-center gap-2">
+                                        <Shield className="h-4 w-4" />
+                                        Admin Login
+                                    </div>
                                 </Link>
                             )}
                         </div>
