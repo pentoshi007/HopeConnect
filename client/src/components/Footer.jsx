@@ -47,9 +47,9 @@ function Footer() {
                 </div>
 
                 <div className="border-t border-gray-700 mt-6 pt-6 text-center space-y-3">
-                    <div className="text-sm text-gray-300">
+                    /*<div className="text-sm text-gray-300">
                         Built by <span className="text-primary font-medium">Aniket</span>
-                    </div>
+                    </div>*/
                     <p className="text-gray-300 text-sm">
                         © 2025 HopeConnect India. Making a difference, one volunteer at a time.
                     </p>
