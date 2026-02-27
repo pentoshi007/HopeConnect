@@ -15,6 +15,7 @@ function Footer() {
                     </div>
 
                     {/* Social Links */}
+                    {/*
                     <div className="flex space-x-4">
                         <a
                             href="https://x.com/lunatic_ak_"
@@ -45,6 +46,7 @@ function Footer() {
                         </a>
                     </div>
                 </div>
+                */}
 
                 <div className="border-t border-gray-700 mt-6 pt-6 text-center space-y-3">
                     
